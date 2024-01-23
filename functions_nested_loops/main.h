@@ -14,7 +14,7 @@ int _abs(int c);
 
 int print_last_digit(int);
 
-void jack_baur(void);
+void jack_bauer(void);
 
 void times_table(void);
 
