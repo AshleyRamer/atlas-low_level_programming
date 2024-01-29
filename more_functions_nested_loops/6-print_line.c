@@ -2,7 +2,7 @@
 
 /**
  * print_line - forms a straight line
- *
+ *@n: variable
  * Retrn: none
  */
 void more_numbers(void)
