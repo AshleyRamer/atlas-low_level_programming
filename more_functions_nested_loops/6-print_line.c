@@ -5,18 +5,13 @@
  *@n: variable
  * Retrn: none
  */
-void more_numbers(void)
+void print_line(int n)
 {
+	int l;
 
-int a, z;
-	for (a = 1; a <= 10; a++)
+	for (l = 0; l < n; l++)
 	{
-		for (z = 0; z <= 14; z++)
-		{
-			if (z >= 10)
-			_putchar('1');
-			_putchar(z % 10 + '0');
-		}
-			_putchar('\n');
-		}
+		_putchar('_');
+	}
+	_putchar('\n');
 }
