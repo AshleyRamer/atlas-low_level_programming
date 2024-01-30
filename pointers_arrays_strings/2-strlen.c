@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * @s: checked character
+ * _strln - length of string
+ * @s: string
  * Return: length of string
  */
 
