@@ -1,24 +1,25 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * _strpbrk - searches string forany of a set of bytes
  * @s: input
  * @accept: input
- * Return: Always 0 (Success)
+ * Return: NULL if character not foud
  */
 
 char *_strpbrk(char *s, char *accept)
 {
-	int k;
+	int i = 0;
 
 	while (*s)
 	{
-		for (k = 0; accept [k]; k++);
+		for (i = 0; accept[i]; i++)
 		{
-		if (*s == accept[k])
-		return (s);
+			if (*s == accept[i])
+				return (s);
 		}
-	s++;
+		s++;
 	}
-	return ('\n');
+	return (NULL);
 }
