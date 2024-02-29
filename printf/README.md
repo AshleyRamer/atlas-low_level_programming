@@ -13,8 +13,6 @@ The printf() function is a tool used in C programming used to print a string of 
 + %u: Prints an unsigned integer(s).
 + %x: Prints a hexidecimal with lowercase letters.
 + %X: Prints a hexidecimal with uppercase letters.
-+ %b: Prints a binary version of an unsigned decimal.
-+ %R: Prints the Rot13 version of a string.
 + %p: Prints a void * pointer that has to be printed in hexidecimal format.
 + %%: Prints a '%' percent sign.
 
