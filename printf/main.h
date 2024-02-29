@@ -10,7 +10,7 @@
 
 /** Insert prototypes for printf project below */
 int _strlen(char *s);
-int printf(const char *format, ...);
+int _printf(const char *format, ...);
 int _putchar(char c);
 char *strcat(char *destination, const char *source);
 size_t strlen(const char *str);
