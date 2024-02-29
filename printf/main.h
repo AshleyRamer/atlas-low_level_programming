@@ -8,7 +8,8 @@
 #include <math.h>
 #include <limits.h>
 
-// Insert prototypes for printf project below
+/** Insert prototypes for printf project below */
+int _strlen(char *s);
 int printf(const char *format, ...);
 int _putchar(char c);
 char *strcat(char *destination, const char *source);
