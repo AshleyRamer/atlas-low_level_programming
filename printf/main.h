@@ -5,8 +5,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdarg.h>
-#include <math.h>
-#include <limits.h>
+#include <unistd.h>
 
 /** Insert prototypes for printf project below */
 int _strlen(char *s);
