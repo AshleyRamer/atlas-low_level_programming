@@ -1,0 +1,12 @@
+.TH man_3_printf _printf\-0.1
+.SH NAME
+ man_3_printf \- student created printf with limited functionality.
+
+.SH SYNOPSIS
+.B #include "main.h"
+.B #include <stdio.h>
+.B #include <stdarg.h>
+.B #include <stdlib.h>
+.B #include <string.h>
+
+.B int _printf(const char *format, ...);
