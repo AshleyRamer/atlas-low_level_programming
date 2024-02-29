@@ -28,4 +28,13 @@ The printf() function is a tool used in C programming used to print a string of 
 + You are not allowed to use global variables
 + No more than 5 functions per file
 + The prototypes of all your functions should be included in your header file called main.h
++ Project will include a man page called man_3_printf
 + Code will be compiled this way: $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
+
+
+## Citations and Sources
++ https://www.youtube.com/watch?v=tGF6Q8tEKPk
++ https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/misc/2022/11/d38f88e96a617135804dca9f9c49632751e06aa7.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20240229%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20240229T163819Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=bdba7958be536b347ab42203997ce8d66f02b52e9c3ee243f612e0a776525695+ https://scientyficworld.org/how-to-write-my-own-printf-in-c/
++ https://stackoverflow.com/questions/72935148/i-am-trying-to-create-my-own-printf-function-but-i-dont-know-how-to-include-the
++ https://www.geeksforgeeks.org/how-to-write-your-own-printf-in-c/
++ https://youtu.be/vQXQAaP66gE?si=uCBhLOju-F5T7JDh
