@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <stdarg.h>
 #include <math.h>
+#include <limits.h>
 
 // Insert prototypes for printf project below
 int printf(const char *format, ...);
