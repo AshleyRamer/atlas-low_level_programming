@@ -26,8 +26,32 @@ The printf() function is a tool used in C programming used to print a string of 
 + You are not allowed to use global variables
 + No more than 5 functions per file
 + The prototypes of all your functions should be included in your header file called main.h
-+ Project will include a man page called man_3_printf
++ Project will include a man page called "man_3_printf"
 + Code will be compiled this way: $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
+
+## Example
+
+```
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
+
+/**
+ * main - point of entry
+ * Return: Always 0
+ */
+
+int main(void)
+{
+        printf("Hello, World!");
+
+        return (0);
+}
+
+```
+
+Output: "Hello, World!"
 
 ## Authorized Functions and Macros
 + write (man 2 write)
