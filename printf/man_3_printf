@@ -13,11 +13,6 @@
 .SH DESCRIPTION
 .B _printf
 Prints formatted output to the standard output.
-.SH OPTIONS
-
-
-
-
 .SH AUTHORS
 .B JOSH MERRICK CHASE SPARKS ASHLEY RAMER
 .SH COPYRIGHT
