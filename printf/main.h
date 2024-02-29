@@ -5,11 +5,13 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdarg.h>
+#include <math.h>
 
 // Insert prototypes for printf project below
 int printf(const char *format, ...);
 int _putchar(char c);
 char *strcat(char *destination, const char *source);
 size_t strlen(const char *str);
+char* strcpy(char* destination, const char* source);
 
 #endif
