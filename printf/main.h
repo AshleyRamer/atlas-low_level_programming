@@ -7,6 +7,11 @@
 #include <stdarg.h>
 #include <unistd.h>
 
+
+typedef struct print{
+	char *ink;
+	int (*read)(va_list, int);
+}copy;
 /** Insert prototypes for printf project below */
 int _strlen(char *s);
 int _printf(const char *format, ...);
