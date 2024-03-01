@@ -16,7 +16,7 @@ typedef struct print{
 int _strlen(char *s);
 int _printf(const char *format, ...);
 int _putchar(char c);
-char *strcat(char *destination, const char *source);
+char *_strcat(char *dest, char *src);
 size_t strlen(const char *str);
 char* strcpy(char* destination, const char* source);
 
