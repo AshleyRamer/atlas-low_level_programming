@@ -1,4 +1,5 @@
-## Hash Tables by Ashley Ramer	Due 3/18/2024 @ 11:59pm
+## Hash Tables 
+By Ashley Ramer	Due 3/18/2024 @ 11:59pm
 
 ## Data Structures
 
